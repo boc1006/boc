@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boc.dao.acid.UserDao">
+
+    <insert id="registryUser" parameterType="user">
+        insert into user (USERID, USERNAME, AGE)
+       			  values (#{userid}, #{username}, #{age})
+    </insert>
+    
+    <select id="hasThisUser" parameterType="java.lang.String" resultType="java.lang.Integer">
+    	select count(*) from user where username=#{username}
+    </select>
+    
+    <insert id="insertSubForBatch" useGeneratedKeys="true" keyProperty="id" >
+<!--     	<selectKey resultType="int" keyProperty="id" order="AFTER">   -->
+<!-- 	        SELECT   -->
+<!-- 	        LAST_INSERT_ID()   -->
+<!-- 	    </selectKey>   -->
+	    insert into msg_sub (contents)   
+	    values  
+	    <foreach collection="list" item="item" index="index" separator="," >  
+	        (#{item.contents})  
+	    </foreach>  
+    </insert>
+    
+    <select id="queryAnalysislistPageData" parameterType="page" resultType="analysis">
+    	select id,clientid,clientip,pageid,referer,useragent,userdata,
+    	       servtime,clienttme,dbtime,terminal,residencetime,siteid
+    	  from pt_log_analysis_anonymous2
+      order by id
+    </select>
+    
+    <insert id="insertUserLogs" parameterType="userLogs">
+        insert into user_logs (USERID, USERNAME, AGE)
+       			  values (#{userid}, #{username}, #{age})
+    </insert>
+</mapper>

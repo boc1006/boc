@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: nio
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: boc
+Specification-Title: nio
+Implementation-Vendor-Id: com.boc
+Build-Jdk: 1.8.0_151
+Specification-Version: 0.0.1-SNAPSHOT
+Created-By: Maven Integration for Eclipse
+

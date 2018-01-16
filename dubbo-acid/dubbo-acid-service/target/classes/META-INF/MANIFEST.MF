@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Implementation-Title: dubbo-acid-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: boc
+Specification-Title: dubbo-acid-service
+Implementation-Vendor-Id: com.boc
+Class-Path: . lib/dubbo-common-config-0.0.1-SNAPSHOT.jar lib/dubbo-com
+ mon-core-0.0.1-SNAPSHOT.jar lib/dubbo-common-utils-0.0.1-SNAPSHOT.jar
+  lib/poi-3.9.jar lib/xalan-2.7.1.jar lib/serializer-2.7.1.jar lib/fas
+ tjson-1.2.31.jar lib/cglib-2.2.2.jar lib/asm-3.3.1.jar lib/json-lib-2
+ .3-jdk15.jar lib/httpclient-4.5.3.jar lib/httpcore-4.4.6.jar lib/comm
+ ons-httpclient-3.1.jar lib/jedis-2.9.0.jar lib/commons-pool2-2.4.2.ja
+ r lib/jaxen-1.1.1.jar lib/jdom-1.0.jar lib/xercesImpl-2.6.2.jar lib/x
+ om-1.0.jar lib/xmlParserAPIs-2.6.2.jar lib/icu4j-3.4.4.jar lib/dubbo-
+ acid-facade-0.0.1-SNAPSHOT.jar lib/antlr-2.7.6.jar lib/aopalliance-1.
+ 0.jar lib/aspectjweaver-1.7.3.jar lib/ognl-3.2.3.jar lib/oro-2.0.8.ja
+ r lib/commons-beanutils-1.8.0.jar lib/commons-codec-1.8.jar lib/commo
+ ns-collections-3.2.jar lib/commons-digester-2.0.jar lib/commons-fileu
+ pload-1.3.1.jar lib/commons-io-2.0.1.jar lib/commons-lang3-3.1.jar li
+ b/commons-logging-1.1.3.jar lib/commons-validator-1.1.4.jar lib/dom4j
+ -1.6.1.jar lib/xml-apis-1.0.b2.jar lib/ezmorph-1.0.6.jar lib/commons-
+ lang-2.5.jar lib/dubbo-2.5.7.jar lib/javassist-3.20.0-GA.jar lib/nett
+ y-3.2.5.Final.jar lib/zookeeper-3.4.9.jar lib/slf4j-log4j12-1.7.25.ja
+ r lib/jline-0.9.94.jar lib/netty-3.10.5.Final.jar lib/zkclient-0.2.ja
+ r lib/curator-framework-2.12.0.jar lib/curator-client-2.12.0.jar lib/
+ guava-16.0.1.jar lib/curator-recipes-2.12.0.jar lib/log4j-1.2.16.jar 
+ lib/slf4j-api-1.7.25.jar lib/spring-aop-4.2.5.RELEASE.jar lib/spring-
+ aspects-4.2.5.RELEASE.jar lib/spring-beans-4.2.5.RELEASE.jar lib/spri
+ ng-context-4.2.5.RELEASE.jar lib/spring-context-support-4.2.5.RELEASE
+ .jar lib/spring-core-4.2.5.RELEASE.jar lib/spring-expression-4.2.5.RE
+ LEASE.jar lib/spring-instrument-4.2.5.RELEASE.jar lib/spring-instrume
+ nt-tomcat-4.2.5.RELEASE.jar lib/spring-jdbc-4.2.5.RELEASE.jar lib/spr
+ ing-jms-4.2.5.RELEASE.jar lib/spring-messaging-4.2.5.RELEASE.jar lib/
+ spring-orm-4.2.5.RELEASE.jar lib/spring-oxm-4.2.5.RELEASE.jar lib/spr
+ ing-tx-4.2.5.RELEASE.jar lib/spring-web-4.2.5.RELEASE.jar lib/spring-
+ webmvc-4.2.5.RELEASE.jar lib/spring-webmvc-portlet-4.2.5.RELEASE.jar 
+ lib/mybatis-3.3.1.jar lib/mybatis-spring-1.2.0.jar lib/druid-1.1.5.ja
+ r lib/mysql-connector-java-5.1.32.jar
+Build-Jdk: 1.8.0_151
+Specification-Version: 0.0.1-SNAPSHOT
+Created-By: Maven Integration for Eclipse
+Main-Class: com.alibaba.dubbo.container.Main
+
